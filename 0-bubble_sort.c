@@ -1,14 +1,10 @@
 #include "sort.h"
 
-
 /**
- * bubble_sort: This sorts the @array using bubble sort algorithm
- * @array: The array to be sorted
- * @size: The total length of the array
- *
- * Return: void
+ * bubble_sort - Sorts an array using the bubble sort algorithm.
+ * @array: The array to sort.
+ * @size: The length of the array.
  */
-
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
